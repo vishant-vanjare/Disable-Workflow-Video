@@ -5,9 +5,9 @@ on:
   branches: [ main ]
 
 jobs:
-  disable:
-   runs-on: ubuntu-latest
+ disable:
+  runs-on: ubuntu-latest
 
-   steps:
-    - name: Disable Wokflow
-     run: echo "Disable workflow video"
+  steps:
+   - name: Disable Wokflow
+    run: echo "Disable workflow video"
